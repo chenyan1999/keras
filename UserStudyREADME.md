@@ -10,6 +10,14 @@ pip install scipy
 pip install protobuf==3.20.*
 ```
 
+如果你使用的是 M 芯片 MacBook，那么请如下配置：
+```bash
+conda create --name user_study_keras python=3.8.20 -y
+conda activate user_study_keras
+pip install tensorflow==2.13.0
+pip install scipy
+```
+
 如果你的环境还不是 `user_study_keras`，请通过以下命令激活环境：
 ```bash
 conda activate user_study_keras
