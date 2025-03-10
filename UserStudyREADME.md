@@ -54,6 +54,7 @@ Add noise_shape and seed to Dropout layer API.
 你也可以输入其他内容，如果您使用的是 TRACE 或 CoEdPilot，请勿输入 ASCII 以外的字符。
 
 ## 温馨提示
+* 初始化参数 `noise_shape` 和 `seed` 的默认值均为 `None`
 * 后端的 `dropout` 函数签名为：
 ```python
 def dropout(x, level, noise_shape=None, seed=None):
